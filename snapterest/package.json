@@ -1,0 +1,26 @@
+{
+  "name": "snapterest",
+  "version": "1.0.0",
+  "description": "test app",
+  "main": "source/app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Anand Mallick",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "browserify": "~13.0.0",
+    "gulp": "~3.9.1",
+    "babelify": "~7.2.0",
+    "vinyl-source-stream": "~1.1.0",
+    "babel-preset-react": "~6.5.0",
+    "jest-cli": "~0.9.2"
+  },
+  "dependencies": {
+    "flux": "^2.1.1",
+    "object-assign": "^4.0.1",
+    "react": "~0.14.7",
+    "react-dom": "~0.14.7",
+    "snapkite-stream-client": "~1.0.3"
+  }
+}
